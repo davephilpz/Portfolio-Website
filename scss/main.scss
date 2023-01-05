@@ -1555,6 +1555,12 @@ strong {
     background-color: var(--color-dark);
 }
 
+@supports (gap:2rem) {
+    .footer {
+        margin: 2rem;
+    }
+}
+
 .footer a {
     text-decoration: none;
     color: var(--color-light);
@@ -1589,6 +1595,12 @@ strong {
     transition: all 300ms ease-in-out;
 }
 
+@supports (gap:2rem) {
+    .social-list__link {
+        margin: 1.5rem;
+    }
+}
+
 .footer__icon {
     height: 4rem;
 }
@@ -1610,8 +1622,20 @@ strong {
         gap: 4rem;
     }
 
+    @supports (gap:4rem) {
+        .social-list {
+            margin: 4rem;
+        }
+    }
+
     .social-list__link {
         gap: 1rem;
+    }
+
+    @supports (gap:1rem) {
+        .social-list__link {
+            margin: 1rem;
+        }
     }
 
     .footer__icon {
@@ -1647,6 +1671,12 @@ strong {
     margin: 5rem 0 10rem;
 }
 
+@supports (gap:2rem) {
+    .portfolio-item {
+        margin: 2rem;
+    }
+}
+
 .portfolio-project__item {
     position: relative;
 }
@@ -1661,6 +1691,12 @@ strong {
     gap: 2rem;
     align-items: center;
     justify-content: center;
+}
+
+@supports (gap:2rem) {
+    .portfolio-item__text-container {
+        margin: 2rem;
+    }
 }
 
 .portfolio-item__img {
@@ -1748,6 +1784,12 @@ strong {
     gap: 1rem;
 }
 
+@supports (gap:2rem) {
+    .portfolio-item__tech-stack--images {
+        margin: 2rem;
+    }
+}
+
 .portfolio-item__tech-stack--img {
     width: 3.5rem;
     height: 3.5rem;
@@ -1769,6 +1811,12 @@ strong {
     border-bottom: 1px solid var(--color-accent);
 }
 
+@supports (gap:1rem) {
+    .portfolio-item__features {
+        margin: 1rem;
+    }
+}
+
 .portfolio-item__features--title {
     font-size: 2.5rem;
 }
@@ -1777,6 +1825,12 @@ strong {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     gap: 2rem;
+}
+
+@supports (gap:2rem) {
+    .portfolio-item__feature-list {
+        margin: 2rem;
+    }
 }
 
 .portfolio-item__feature-list--list-item {
@@ -1802,6 +1856,12 @@ strong {
     border-bottom: 1px solid var(--color-accent);
 }
 
+@supports (gap:1rem) {
+    .portfolio-item__what-i-learned {
+        margin: 1rem;
+    }
+}
+
 .portfolio-item__what-i-learned--title {
     font-size: 2.5rem;
 }
@@ -1810,6 +1870,12 @@ strong {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+
+@supports (gap:2rem) {
+    .portfolio-item__what-i-learned--list {
+        margin: 2rem;
+    }
 }
 
 .portfolio-item__what-i-learned-list--list-item {
