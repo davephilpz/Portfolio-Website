@@ -1763,7 +1763,7 @@ strong {
     gap: 1rem;
     margin: 0 auto;
     margin-bottom: 5rem;
-    width: 60%;
+    width: 70%;
     padding-bottom: 5rem;
     border-bottom: 1px solid var(--color-accent);
 }
@@ -1816,16 +1816,10 @@ strong {
     gap: 1rem;
     margin: 0 auto;
     margin-bottom: 5rem;
-    width: 60%;
+    width: 70%;
     padding-bottom: 5rem;
     border-bottom: 1px solid var(--color-accent);
 }
-
-// @supports (gap:1rem) {
-//     .portfolio-item__features {
-//         margin: 1rem;
-//     }
-// }
 
 .portfolio-item__features--title {
     font-size: 2.5rem;
@@ -1845,7 +1839,7 @@ strong {
 
 .portfolio-item__feature-list--list-item {
     list-style: circle;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     line-height: 1.2;
     text-align: left;
 }
@@ -1867,38 +1861,27 @@ strong {
     gap: 1rem;
     margin: 0 auto;
     margin-bottom: 5rem;
-    width: 60%;
+    width: 70%;
     padding-bottom: 5rem;
     border-bottom: 1px solid var(--color-accent);
 }
 
-// @supports (gap:1rem) {
-//     .portfolio-item__what-i-learned {
-//         margin: 1rem;
-//     }
-// }
-
 .portfolio-item__what-i-learned--title {
     font-size: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 .portfolio-item__what-i-learned--list {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-}
-
-@supports (gap:2rem) {
-    .portfolio-item__what-i-learned--list {
-        margin: 2rem;
-    }
 }
 
 .portfolio-item__what-i-learned-list--list-item {
     list-style: circle;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     line-height: 1.2;
     text-align: left;
+    margin-bottom: 2rem;
 }
 
 @media only screen and (max-width: 600px) {
