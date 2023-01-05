@@ -52,6 +52,11 @@ html {
   scroll-padding-top: 8rem;
 }
 
+:target {
+  scroll-padding-top: 8rem;
+  scroll-margin-top: 8rem;
+}
+
 ul,
 li {
   list-style: none;
@@ -68,9 +73,6 @@ body {
   color: #333;
 }
 
-/* :target {
-  scroll-margin-top: -8rem;
-} */
 img {
   display: block;
   max-width: 100%;
