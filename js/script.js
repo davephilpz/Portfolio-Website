@@ -27,7 +27,7 @@ const observer = new IntersectionObserver(
   {
     root: null, //this means the element will be observed inside of the viewport.
     threshold: 0,
-    rootMargin: "-150px",
+    rootMargin: "-220px",
   }
 );
 observer.observe(sectionIntro);
@@ -35,7 +35,7 @@ observer.observe(sectionIntro);
 //scroll to
 allLinks.forEach((link) => {
   link.addEventListener("click", (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     const href = link.getAttribute("href");
 
     if (href === "#") {

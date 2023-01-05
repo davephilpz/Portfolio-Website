@@ -8,7 +8,6 @@
     "devserver": "live-server --browser=chrome",
     "start": "npm-run-all --parallel devserver watch:sass",
     "compile:sass": "sass scss/main.scss css/style.comp.css",
-    "concat:css": "concat -o css/style.concat.css css/style.comp.css",
     "browserslist": "last 10 versions",
     "prefix:css": "postcss css/style.comp.css --use autoprefixer -o css/style.prefix.css",
     "compress:css": "sass css/style.prefix.css css/style.css --style compressed",
