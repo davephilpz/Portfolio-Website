@@ -650,6 +650,13 @@ strong {
   padding-bottom: 5rem;
 }
 
+@media only screen and (max-width: 800px) {
+  .my-services {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/my-desktop-mobile.webp"), url("../img/my-desktop-mobile.jpg");
+  }
+}
 .services {
   display: grid;
   column-gap: 3rem;
@@ -1082,11 +1089,16 @@ strong {
 }
 
 .cta-imagebox {
-  background-image: linear-gradient(to right bottom, var(--color-accent-opacity-light), var(--color-accent-opacity-light)), url("../img/cta.webp"), url("../img/cta.jpg");
+  background-image: linear-gradient(to right bottom, var(--color-accent-opacity-light), var(--color-accent-opacity-light)), url("../img/cta-full.webp"), url("../img/cta-full.jpg");
   background-size: cover;
   background-position: right;
 }
 
+@media only screen and (max-width: 800px) {
+  .cta-imagebox {
+    background-image: linear-gradient(to right bottom, var(--color-accent-opacity-light), var(--color-accent-opacity-light)), url("../img/cta-mobile.webp"), url("../img/cta-mobile.jpg");
+  }
+}
 .cta-form {
   display: grid;
   grid-template-columns: 1fr 1fr;

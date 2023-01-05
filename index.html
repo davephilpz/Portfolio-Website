@@ -74,8 +74,26 @@
       <!-- // Introduction -->
       <section class="intro">
         <picture>
-          <source srcset="img/profile-picture.webp" type="image/webp" />
-          <source srcset="img/profile-picture.jpg" type="image/jpg" />
+          <source
+            media="(min-width:800px)"
+            srcset="img/profile-picture.webp"
+            type="image/webp"
+          />
+          <source
+            media="(min-width:800px)"
+            srcset="img/profile-picture.jpg"
+            type="image/jpg"
+          />
+          <source
+            media="(max-width:800px)"
+            srcset="img/profile-picture-mobile.webp"
+            type="image/webp"
+          />
+          <source
+            media="(max-width:800px)"
+            srcset="img/profile-picture-mobile.jpg"
+            type="image/jpg"
+          />
           <img
             class="profile__img"
             src="img/profile-picture.jpg"
@@ -156,8 +174,26 @@
             </h3>
           </div>
           <picture>
-            <source srcset="img/profile-picture.webp" type="image/webp" />
-            <source srcset="img/profile-picture.jpg" type="image/jpg" />
+            <source
+              media="(min-width:800px)"
+              srcset="img/profile-picture.webp"
+              type="image/webp"
+            />
+            <source
+              media="(min-width:800px)"
+              srcset="img/profile-picture.jpg"
+              type="image/jpg"
+            />
+            <source
+              media="(max-width:800px)"
+              srcset="img/profile-picture-mobile.webp"
+              type="image/webp"
+            />
+            <source
+              media="(max-width:800px)"
+              srcset="img/profile-picture-mobile.jpg"
+              type="image/jpg"
+            />
             <img
               class="about-me__img"
               src="img/profile-picture.jpg"
