@@ -1278,11 +1278,6 @@ strong {
   background-color: var(--color-dark);
 }
 
-@supports (gap: 2rem) {
-  .footer {
-    margin: 2rem;
-  }
-}
 .footer a {
   text-decoration: none;
   color: var(--color-light);
