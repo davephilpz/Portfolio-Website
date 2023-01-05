@@ -1278,6 +1278,11 @@ strong {
   background-color: var(--color-dark);
 }
 
+@supports (gap: 2rem) {
+  .footer {
+    margin: 2rem;
+  }
+}
 .footer a {
   text-decoration: none;
   color: var(--color-light);
@@ -1338,7 +1343,7 @@ strong {
   }
   @supports (gap: 4rem) {
     .social-list {
-      margin: 4rem;
+      margin-right: 4rem;
     }
   }
   .social-list__link {
