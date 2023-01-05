@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="400mm"
-   height="400mm"
-   viewBox="0 0 400 400"
+   width="40mm"
+   height="40mm"
+   viewBox="0 0 40 40"
    version="1.1"
    id="svg135"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.5"
-     inkscape:cx="1160"
-     inkscape:cy="857"
+     inkscape:zoom="4"
+     inkscape:cx="163.375"
+     inkscape:cy="140.625"
      inkscape:window-width="2879"
      inkscape:window-height="1515"
      inkscape:window-x="1430"
@@ -43,7 +43,7 @@
        id="g732">
       <g
          id="g1160"
-         transform="matrix(2.0996365,0,0,2.0996365,-211.65648,-115.04424)">
+         transform="matrix(0.20996364,0,0,0.21595397,-21.165645,-11.832646)">
         <path
            id="path575-7"
            style="fill:#aade87;stroke-width:0.264999"
@@ -65,7 +65,7 @@
       </g>
       <g
          id="g1160-5"
-         transform="matrix(-0.43527178,0.75391284,-0.75391284,-0.43527178,413.2242,156.04671)">
+         transform="matrix(-0.04352718,0.07754222,-0.07539128,-0.04476902,41.322419,16.049879)">
         <path
            id="path575-7-8"
            style="fill:#aade87;stroke-width:0.264999"
@@ -87,7 +87,7 @@
       </g>
       <g
          id="g1160-5-5"
-         transform="matrix(-0.13665765,-0.236698,0.236698,-0.13665765,193.91811,302.85079)">
+         transform="matrix(-0.01366576,-0.02434511,0.0236698,-0.01405565,19.391811,31.149124)">
         <path
            id="path575-7-8-9"
            style="fill:#aade87;stroke-width:0.264999"
@@ -109,15 +109,16 @@
       </g>
       <text
          xml:space="preserve"
-         style="font-size:50.8px;font-family:'Curlz MT';-inkscape-font-specification:'Curlz MT, Normal';fill:#e6e6e6;stroke-width:0.264999"
-         x="6.1754169"
-         y="388.40833"
-         id="text300"><tspan
+         style="font-size:5.15196px;font-family:'Curlz MT';-inkscape-font-specification:'Curlz MT, Normal';fill:#e6e6e6;stroke-width:0.0268753"
+         x="0.6262908"
+         y="39.391006"
+         id="text300"
+         transform="scale(0.98603298,1.0141649)"><tspan
            sodipodi:role="line"
            id="tspan298"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.8px;font-family:'Cascadia Code';-inkscape-font-specification:'Cascadia Code';fill:#000000;stroke-width:0.265"
-           x="6.1754169"
-           y="388.40833">Recursive Web</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.15196px;font-family:'Cascadia Code';-inkscape-font-specification:'Cascadia Code';fill:#000000;stroke-width:0.0268754"
+           x="0.6262908"
+           y="39.391006">Recursive Web</tspan></text>
     </g>
   </g>
 </svg>
