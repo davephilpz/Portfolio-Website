@@ -708,6 +708,12 @@ strong {
     justify-content: center;
 }
 
+@supports (gap:2rem) {
+    .intro__text-container {
+        margin-bottom: 2rem;
+    }
+}
+
 .profile__img {
     width: 25rem;
     box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.3);
@@ -772,6 +778,12 @@ strong {
         gap: 1.5rem;
     }
 
+    @supports (gap:1.5rem) {
+        .intro__text-container {
+            margin-bottom: 1.5rem;
+        }
+    }
+
     .profile__img {
         width: 15rem;
     }
@@ -796,8 +808,20 @@ strong {
         margin: 10rem 0;
     }
 
+    @supports (gap:5rem) {
+        .intro__ {
+            margin-bottom: 5rem;
+        }
+    }
+
     .intro__text-container {
         gap: 2.5rem;
+    }
+
+    @supports (gap:2.5rem) {
+        .intro__text-container {
+            margin-bottom: 2.5rem;
+        }
     }
 
     .profile__img {
