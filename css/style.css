@@ -1501,6 +1501,11 @@ strong {
   height: 3.5rem;
 }
 
+@media only screen and (max-width: 600px) {
+  .portfolio-item__tech-stack {
+    width: 90%;
+  }
+}
 /********************/
 /* Portfolio Item Features */
 /********************/
@@ -1508,6 +1513,10 @@ strong {
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
   gap: 1rem;
   margin: 0 auto;
   margin-bottom: 5rem;
@@ -1516,11 +1525,6 @@ strong {
   border-bottom: 1px solid var(--color-accent);
 }
 
-@supports (gap: 1rem) {
-  .portfolio-item__features {
-    margin: 1rem;
-  }
-}
 .portfolio-item__features--title {
   font-size: 2.5rem;
 }
@@ -1543,6 +1547,11 @@ strong {
   text-align: left;
 }
 
+@media only screen and (max-width: 600px) {
+  .portfolio-item__features {
+    width: 90%;
+  }
+}
 /********************/
 /* Portfolio Item What I Learned */
 /********************/
@@ -1558,11 +1567,6 @@ strong {
   border-bottom: 1px solid var(--color-accent);
 }
 
-@supports (gap: 1rem) {
-  .portfolio-item__what-i-learned {
-    margin: 1rem;
-  }
-}
 .portfolio-item__what-i-learned--title {
   font-size: 2.5rem;
 }
@@ -1583,6 +1587,12 @@ strong {
   font-size: 1.3rem;
   line-height: 1.2;
   text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .portfolio-item__what-i-learned {
+    width: 90%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
