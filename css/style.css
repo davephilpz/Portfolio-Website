@@ -1,3 +1,23 @@
+/* roboto-100 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/roboto-v30-latin-100.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/roboto-v30-latin-100.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v30-latin-100.woff2") format("woff2"), url("../fonts/roboto-v30-latin-100.woff") format("woff"), url("../fonts/roboto-v30-latin-100.ttf") format("truetype"), url("../fonts/roboto-v30-latin-100.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+/* source-code-pro-regular - latin */
+@font-face {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/source-code-pro-v22-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/source-code-pro-v22-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/source-code-pro-v22-latin-regular.woff2") format("woff2"), url("../fonts/source-code-pro-v22-latin-regular.woff") format("woff"), url("../fonts/source-code-pro-v22-latin-regular.ttf") format("truetype"), url("../fonts/source-code-pro-v22-latin-regular.svg#SourceCodePro") format("svg");
+  /* Legacy iOS */
+}
 /********************/
 /* General */
 /********************/
@@ -904,7 +924,7 @@ strong {
 }
 
 .cta-textbox {
-  color: #aaa;
+  color: var(--color-dark);
   padding: 4.8rem 6.4rem 6.4rem 6.4rem;
 }
 
@@ -957,7 +977,7 @@ strong {
 }
 
 .cta-form input::placeholder {
-  color: #aaa;
+  color: var(--color-dark);
 }
 
 .cta-form *:focus {
