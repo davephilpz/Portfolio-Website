@@ -820,7 +820,7 @@ strong {
 
     @supports (gap:2.5rem) {
         .intro__text-container {
-            margin-bottom: 5rem;
+            margin: 5rem;
         }
     }
 
@@ -1007,6 +1007,12 @@ strong {
     margin: 15rem 0;
 }
 
+@supports (gap:5rem) {
+    .about-me {
+        margin: 8rem;
+    }
+}
+
 .about-me__flex-container {
     display: flex;
     align-items: center;
@@ -1019,6 +1025,12 @@ strong {
     gap: 2rem;
     align-items: center;
     justify-content: center;
+}
+
+@supports (gap:5rem) {
+    .about-me__text-container {
+        margin: 8rem;
+    }
 }
 
 .about-me__img {
@@ -1059,6 +1071,12 @@ strong {
     font-size: 2rem;
 }
 
+@supports (gap:2rem) {
+    .about-me__text {
+        margin: 4rem;
+    }
+}
+
 .about-me__btn {
     align-self: center;
     padding: 0 3rem;
@@ -1097,6 +1115,12 @@ strong {
         margin: 10rem 0;
     }
 
+    @supports (gap:3rem) {
+        .about-me {
+            margin: 6rem;
+        }
+    }
+
     .about-me__img {
         width: 20rem;
     }
@@ -1125,11 +1149,6 @@ strong {
         flex-direction: column;
     }
 
-    .about-me {
-        gap: 3rem;
-        margin: 10rem 0;
-    }
-
     .about-me__img {
         width: 15rem;
     }
@@ -1156,7 +1175,6 @@ strong {
 
 @media only screen and (max-width: 450px) {
     .about-me {
-        gap: 3rem;
         margin: 5rem 0;
     }
 
@@ -1169,6 +1187,12 @@ strong {
     .about-me__body {
         gap: 1.5rem;
         padding: 0 2rem;
+    }
+
+    @supports (gap:1.5rem) {
+        .about-me__body {
+            margin: 3rem;
+        }
     }
 }
 
