@@ -793,7 +793,7 @@ strong {
 
 @supports (gap: 5rem) {
   .about-me {
-    margin: 8rem;
+    margin: 5rem;
   }
 }
 .about-me__flex-container {
@@ -812,7 +812,7 @@ strong {
 
 @supports (gap: 5rem) {
   .about-me__text-container {
-    margin: 8rem;
+    margin: 5rem;
   }
 }
 .about-me__img {
@@ -855,7 +855,7 @@ strong {
 
 @supports (gap: 2rem) {
   .about-me__text {
-    margin: 4rem;
+    margin: 2rem;
   }
 }
 .about-me__btn {
@@ -895,7 +895,7 @@ strong {
   }
   @supports (gap: 3rem) {
     .about-me {
-      margin: 6rem;
+      margin: 3rem;
     }
   }
   .about-me__img {
@@ -955,7 +955,7 @@ strong {
   }
   @supports (gap: 1.5rem) {
     .about-me__body {
-      margin: 3rem;
+      margin: 1.5rem;
     }
   }
 }
