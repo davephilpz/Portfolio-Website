@@ -400,7 +400,7 @@ strong {
 
 @supports (gap:5rem) {
     .nav__list {
-        margin-right: 5rem;
+        margin: 5rem;
     }
 }
 
@@ -521,7 +521,7 @@ strong {
 
     @supports (gap:3rem) {
         .nav__list {
-            margin-right: 3rem;
+            margin: 3rem;
         }
     }
 
@@ -548,7 +548,7 @@ strong {
 
     @supports (gap:3rem) {
         .nav__list {
-            margin-right: 3rem;
+            margin: 3rem;
         }
     }
 
@@ -562,7 +562,7 @@ strong {
 
     @supports (gap:3rem) {
         .sticky .nav__list {
-            margin-right: 3rem;
+            margin: 3rem;
         }
     }
 
@@ -583,7 +583,7 @@ strong {
 
     @supports (gap:2rem) {
         .nav__list {
-            margin-right: 2rem;
+            margin: 2rem;
         }
     }
 
@@ -601,7 +601,7 @@ strong {
 
     @supports (gap:1.5rem) {
         .sticky .nav__list {
-            margin-right: 1.5rem;
+            margin: 1.5rem;
         }
     }
 }
@@ -710,7 +710,7 @@ strong {
 
 @supports (gap:2rem) {
     .intro__text-container {
-        margin-bottom: 2rem;
+        margin: 2rem;
     }
 }
 
@@ -780,7 +780,7 @@ strong {
 
     @supports (gap:1.5rem) {
         .intro__text-container {
-            margin-bottom: 1.5rem;
+            margin: 1.5rem;
         }
     }
 
@@ -810,7 +810,7 @@ strong {
 
     @supports (gap:5rem) {
         .intro__ {
-            margin-bottom: 5rem;
+            margin: 5rem;
         }
     }
 
