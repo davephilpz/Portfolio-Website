@@ -1,0 +1,73 @@
+/* :root {
+  font-size: calc(1vw + 1vh + 0.5vmin);
+} */
+
+#title {
+  background-color: #333;
+  color: white;
+  font-family: consolas, monospace;
+  margin-bottom: 5vh;
+  font-size: 7vw;
+  text-align: center;
+  text-justify: auto;
+  border-radius: 5px;
+  /* white-space: nowrap; */
+}
+
+body {
+  font-size: 6vw;
+}
+
+.timerBtn {
+  width: 20vw;
+  height: 5vh;
+  border: 0.4vh solid;
+  border-radius: 1.5vh;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  font-size: 3vw;
+  font-family: consolas, monospace;
+  margin-bottom: 1vh;
+  margin-left: 0.5vh;
+
+  /* padding: 0vh; */
+}
+
+#timeDisplay,
+#exerciseDisplay {
+  font-size: 10vw;
+  color: lightgreen;
+  font-family: consolas, monospace;
+}
+
+#timeContainer {
+  text-align: center;
+  border: 0.6vh solid;
+  border-radius: 2vh;
+  background-color: #333;
+  margin-bottom: 0.6em;
+  justify-content: center;
+  transition: all 1.5s;
+}
+
+#exerciseContainer {
+  text-align: center;
+  border: 0.6vh solid;
+  border-radius: 2vh;
+  background-color: #333;
+  margin-bottom: 0.8em;
+  opacity: 0;
+  transition: all 1.5s;
+}
+
+.timerBtn {
+  background-color: #333;
+}
+.timerBtn:hover {
+  background-color: lightgray;
+}
+
+/* #completeBtn {
+  opacity: 0;
+} */

@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dave Phillips - Full Stack Developer</title>
+
+    <!-- // Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- // CSS & favicon -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="img/favicon/Recursive Icon.svg"
+      type="image/x-icon"
+    />
+
+    <!-- Icons -->
+    <script
+      defer
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      defer
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- JS -->
+    <script defer src="./js/script.js"></script>
+  </head>
+  <body>
+    <header class="header" id="home">
+      <div class="logo">
+        <a href="#">
+          <img
+            src="img/favicon/Recursive Icon.svg"
+            alt="recursive web brand logo"
+          />
+        </a>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#">Home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#my-services">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#about-me">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#my-work">My Work</a>
+          </li>
+          <li class="nav__item btn-header-nav">
+            <a class="nav__link" href="#contact-me">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="mobile-navmenu-btn">
+        <ion-icon class="mobile-navmenu-icon" name="menu-outline"></ion-icon>
+        <ion-icon class="mobile-navmenu-icon" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main class="main">
+      <!-- // Introduction -->
+      <section class="intro">
+        <picture>
+          <source srcset="img/profile-picture.webp" type="image/webp" />
+          <source srcset="img/profile-picture.jpg" type="image/jpg" />
+          <img
+            class="profile__img"
+            src="img/profile-picture.webp"
+            alt="dave phillips profile picture"
+          />
+        </picture>
+        <div class="intro__text-container">
+          <h1 class="intro__title">Hey, I'm <strong>Dave Phillips</strong></h1>
+          <p class="intro__subtitle">Full Stack Web App Developer</p>
+        </div>
+      </section>
+
+      <!-- // Services -->
+      <section class="my-services" id="my-services">
+        <h2 class="my-services__title">My Services</h2>
+        <div class="services">
+          <div class="service">
+            <ion-icon
+              class="service__icon"
+              name="color-palette-outline"
+            ></ion-icon>
+            <h3 class="my-services__subtitle">Design + Development</h3>
+            <p class="my-services__text">
+              Full web design from planning to deployment - optimized for
+              performance, accessability, conversions and all devices.
+            </p>
+          </div>
+          <div class="service">
+            <ion-icon
+              class="service__icon"
+              name="speedometer-outline"
+            ></ion-icon>
+            <h3 class="my-services__subtitle">E-commerce</h3>
+            <p class="my-services__text">
+              Get your business online with e-commerce platforms, customized
+              product templates, online payments and more.
+            </p>
+          </div>
+          <div class="service">
+            <ion-icon class="service__icon" name="bar-chart-outline"></ion-icon>
+            <h3 class="my-services__subtitle">Analytics + SEO</h3>
+            <p class="my-services__text">
+              Track browsing habits to increase conversions rates and raise
+              browser search ranking to increase site traffic.
+            </p>
+          </div>
+          <div class="service">
+            <ion-icon class="service__icon" name="pie-chart-outline"></ion-icon>
+            <h3 class="my-services__subtitle">Database Integration</h3>
+            <p class="my-services__text">
+              Manage data and run online server user authentication and
+              encryption etc.
+            </p>
+          </div>
+          <div class="service">
+            <ion-icon
+              class="service__icon"
+              name="cloud-download-outline"
+            ></ion-icon>
+            <h3 class="my-services__subtitle">Serverless Functions</h3>
+            <p class="my-services__text">
+              Integration with serverless cloud database, payment, and other
+              services.
+            </p>
+          </div>
+        </div>
+
+        <a class="my-services__btn" href="#my-work">My Work</a>
+      </section>
+
+      <!-- // About Me -->
+      <section class="about-me" id="about-me">
+        <div class="about-me__flex-container">
+          <div class="about-me__text-container">
+            <h2 class="about-me__title">About me</h2>
+            <h3 class="about-me__subtitle">
+              Full stack programmer from Jamison, PA
+            </h3>
+          </div>
+          <picture>
+            <source srcset="img/profile-picture.webp" type="image/webp" />
+            <source srcset="img/profile-picture.jpg" type="image/jpg" />
+            <img
+              class="about-me__img"
+              src="img/profile-picture.webp"
+              alt="dave phillips profile picture"
+            />
+          </picture>
+        </div>
+
+        <div class="about-me__body">
+          <p class="about-me__text">
+            My name is <strong>Dave Phillips</strong> and I am a self-taught
+            full stack web application developer with a Bachelor's of Science in
+            Business degree from Pennstate that includes CS and programming.
+          </p>
+          <p class="about-me__text">
+            I constantly strive to improve myself and my company to both stay on
+            top of the latest technology and to deliver a performant, optimized,
+            custom-tailored solution to meet each client's unique needs.
+          </p>
+          <p class="about-me__text">
+            I have experience with both front and back ends, with the capability
+            of creating databases, servers and web apps. I have integrated
+            countless APIs into websites as well as using many serverless cloud
+            functions.
+          </p>
+          <p class="about-me__text">Click below to see how I can help you.</p>
+          <a class="about-me__btn" href="#contact-me">Contact Me</a>
+        </div>
+      </section>
+
+      <!-- // My Work -->
+      <section class="my-work" id="my-work">
+        <h2 class="my-work__title">My Project Portfolio</h2>
+        <p class="my-work__subtitle">
+          Click to find out more about projects in each category.
+        </p>
+
+        <div class="portfolio-projects">
+          <a
+            class="portfolio-project__item"
+            href="./Portfolio Projects/Frameworks/React/react-1.html"
+          >
+            <img
+              class="portfolio-project__icon"
+              src="img/tech-stack-icons/react.png"
+              alt="react js icon"
+            />
+            <img
+              class="portfolio-project__icon-2"
+              src="img/tech-stack-icons/firebase.png"
+              alt="firebase icon"
+            />
+            <img
+              class="portfolio-project__icon-3"
+              src="img/tech-stack-icons/webpack.png"
+              alt="webpack icon"
+            />
+            <picture>
+              <source srcset="img/my-work/ecommerce.webp" type="image/webp" />
+              <source srcset="img/my-work/ecommerce.jpg" type="image/jpg" />
+              <img
+                class="portfolio-project__img"
+                src="img/my-work/ecommerce.webp"
+                alt="picture of e-commerce react app"
+              />
+            </picture>
+          </a>
+
+          <a
+            class="portfolio-project__item"
+            href="./Portfolio Projects/Frameworks/React/react-2.html"
+          >
+            <img
+              class="portfolio-project__icon"
+              src="img/tech-stack-icons/react.png"
+              alt="react js icon"
+            />
+            <img
+              class="portfolio-project__icon-2"
+              src="img/tech-stack-icons/sass.png"
+              alt="sass icon"
+            />
+            <img
+              class="portfolio-project__icon-3"
+              src="img/tech-stack-icons/api.jpg"
+              alt="api call icon"
+            />
+            <picture>
+              <source srcset="img/my-work/monsters.webp" type="image/webp" />
+              <source srcset="img/my-work/monsters.jpg" type="image/jpg" />
+              <img
+                class="portfolio-project__img"
+                src="img/my-work/monsters.webp"
+                alt="picture of monsters rolodex react app"
+              />
+            </picture>
+          </a>
+
+          <a
+            class="portfolio-project__item"
+            href="https://natourz.onrender.com/"
+            target="_blank"
+          >
+            <img
+              class="portfolio-project__icon"
+              src="img/tech-stack-icons/node-js.png"
+              alt="node js icon"
+            />
+            <img
+              class="portfolio-project__icon-2"
+              src="img/tech-stack-icons/mongodb.webp"
+              alt="mongo database icon"
+            />
+            <img
+              class="portfolio-project__icon-3"
+              src="img/tech-stack-icons/postman.png"
+              alt="postman icon"
+            />
+            <picture>
+              <source srcset="img/my-work/na-tours.webp" type="image/webp" />
+              <source srcset="img/my-work/na-tours.jpg" type="image/jpg" />
+              <img
+                class="portfolio-project__img"
+                src="img/my-work/na-tours.webp"
+                alt="picture of na tours fullstack website"
+              />
+            </picture>
+          </a>
+
+          <a
+            class="portfolio-project__item"
+            href="https://silver-tanuki-e2f492.netlify.app"
+            target="_blank"
+          >
+            <img
+              class="portfolio-project__icon"
+              src="img/tech-stack-icons/js.webp"
+              alt="javascript icon"
+            />
+            <img
+              class="portfolio-project__icon-2"
+              src="img/tech-stack-icons/sass.png"
+              alt="sass icon"
+            />
+            <img
+              class="portfolio-project__icon-3"
+              src="img/tech-stack-icons/css.png"
+              alt="css icon"
+            />
+            <picture>
+              <source srcset="img/my-work/natours.webp" type="image/webp" />
+              <source srcset="img/my-work/natours.jpg" type="image/jpg" />
+              <img
+                class="portfolio-project__img"
+                src="img/my-work/natours.webp"
+                alt="picture of na tours design element website"
+              />
+            </picture>
+          </a>
+
+          <a
+            class="portfolio-project__item"
+            href="https://moonlit-haupia-6a928f.netlify.app"
+            target="_blank"
+          >
+            <img
+              class="portfolio-project__icon"
+              src="img/tech-stack-icons/js.webp"
+              alt="javascript icon"
+            />
+            <img
+              class="portfolio-project__icon-2"
+              src="img/tech-stack-icons/sass.png"
+              alt="sass icon"
+            />
+            <img
+              class="portfolio-project__icon-3"
+              src="img/tech-stack-icons/css.png"
+              alt="css icon"
+            />
+            <picture>
+              <source srcset="img/my-work/nexter.webp" type="image/webp" />
+              <source srcset="img/my-work/nexter.jpg" type="image/jpg" />
+              <img
+                class="portfolio-project__img"
+                src="img/my-work/nexter.webp"
+                alt="picture of nexter design element website"
+              />
+            </picture>
+          </a>
+
+          <a
+            class="portfolio-project__item"
+            href="https://unrivaled-fox-edd820.netlify.app"
+            target="_blank"
+          >
+            <img
+              class="portfolio-project__icon"
+              src="img/tech-stack-icons/js.webp"
+              alt="javascript icon"
+            />
+            <img
+              class="portfolio-project__icon-2"
+              src="img/tech-stack-icons/sass.png"
+              alt="sass icon"
+            />
+            <img
+              class="portfolio-project__icon-3"
+              src="img/tech-stack-icons/css.png"
+              alt="css icon"
+            />
+            <picture>
+              <source srcset="img/my-work/omnifood.webp" type="image/webp" />
+              <source srcset="img/my-work/omnifood.jpg" type="image/jpg" />
+              <img
+                class="portfolio-project__img"
+                src="img/my-work/omnifood.webp"
+                alt="picture of omnifood full design website"
+              />
+            </picture>
+          </a>
+
+          <a class="portfolio-project__item" href="#my-work">
+            <img
+              class="portfolio-project__icon"
+              src="img/tech-stack-icons/google-analytics.png"
+              alt="google analytics icon"
+            />
+            <img
+              class="portfolio-project__icon-2"
+              src="img/tech-stack-icons/google-adwords.png"
+              alt="google adwords icon"
+            />
+            <img
+              class="portfolio-project__icon-3"
+              src="img/tech-stack-icons/aspx.png"
+              alt="active server pages icon"
+            />
+            <picture>
+              <source srcset="img/my-work/plcg.webp" type="image/webp" />
+              <source srcset="img/my-work/plcg.jpg" type="image/jpg" />
+              <img
+              class="portfolio-project__img"
+              src=""
+              alt="picture of plcg past deployment"
+            />
+          </a>
+            </picture>
+         
+        </div>
+      </section>
+
+      <section class="contact-me" id="contact-me">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-textbox">
+              <h2 class="heading-secondary">Find out more!</h2>
+              <p class="cta-text">
+                Get free quote or consultation for your website or brand.
+              </p>
+              <!-- <form class="cta-form" action="submit"> -->
+              <form class="cta-form" name="signup" netlify>
+                <div>
+                  <label for="name">Full Name</label>
+                  <input
+                    type="text"
+                    placeholder="John Smith"
+                    id="name"
+                    name="name"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="email">Email Address</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="me@example.com"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="fromWhere">Where did you hear about me?</label>
+                  <select name="fromWhere" id="fromWhere" required>
+                    <option value="">Please choose an option:</option>
+                    <option value="linked-in">Linked In</option>
+                    <option value="indeed">Indeed</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <button class="cta-btn" type="submit">Contact Me</button>
+              </form>
+            </div>
+            <div
+              class="cta-imagebox"
+              role="img"
+              aria-label="picture of person typing on a laptop"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <!-- <a class="footer__link" href="#contact">Contact Me</a> -->
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            href="https://github.com/davephilpz"
+            class="social-list__link"
+            target="_blank"
+          >
+            <img
+              class="footer__icon"
+              src="./img/github-icon.png"
+              alt="Github icon"
+            />
+            <span>Github</span>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/dave-phillips-61730685/"
+            class="social-list__link"
+            target="_blank"
+          >
+            <img
+              class="footer__icon linked in"
+              src="./img/linked-in-icon.png"
+              alt="Linked In icon"
+            />
+            <span>Linked In</span>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://development-resources.onrender.com"
+            class="social-list__link"
+            target="_blank"
+          >
+            <img
+              class="footer__icon linked in"
+              src="./img/favicon/Recursive Icon.svg"
+              alt="Dev resources link hosted on another website."
+            />
+            <span>Dev Resources</span>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

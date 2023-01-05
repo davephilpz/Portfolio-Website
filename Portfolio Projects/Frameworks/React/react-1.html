@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dave Phillips - Full Stack Developer</title>
+
+    <!-- // Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- // CSS & favicon -->
+    <link rel="stylesheet" href="../../../css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="../../../img/favicon/Recursive Icon.svg"
+      type="image/x-icon"
+    />
+
+    <!-- Icons -->
+    <script
+      defer
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      defer
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- JS -->
+    <script defer src="./js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="../../../index.html#home">
+          <img
+            src="../../../img/favicon/Recursive Icon.svg"
+            alt="recursive web brand logo"
+          />
+        </a>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="../../../index.html#home">Home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="../../../index.html#services"
+              >My Services</a
+            >
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="../../../index.html#about-me"
+              >About Me</a
+            >
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="../../../index.html#my-work">My Work</a>
+          </li>
+          <li class="nav__item btn-header-nav">
+            <a class="nav__link" href="../../../index.html#contact-me"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <button class="mobile-navmenu-btn">
+        <ion-icon class="mobile-navmenu-icon" name="menu-outline"></ion-icon>
+        <ion-icon class="mobile-navmenu-icon" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main class="main">
+      <section class="portfolio-item">
+        <div class="portfolio-item__flex-container">
+          <img
+            class="portfolio-item__img"
+            src="../../../img/my-work/ecommerce.webp"
+            alt="react project 1 site snapshot"
+          />
+          <div class="portfolio-item__text-container">
+            <h1 class="portfolio-item__title">React Project 1</h1>
+            <p class="portfolio-item__subtitle">E-commerce app</p>
+          </div>
+        </div>
+
+        <button class="portfolio-item__btn">
+          <a
+            class="nav__link portfolio-item__link"
+            href="https://regal-salmiakki-713ae5.netlify.app"
+            target="_blank"
+            >View Project</a
+          >
+        </button>
+      </section>
+
+      <section class="portfolio-item__tech-stack">
+        <h2 class="portfolio-item__tech-stack--title">Tech Stack</h2>
+        <div class="portfolio-item__tech-stack--images">
+          <img
+            class="portfolio-item__tech-stack--img"
+            src="../../../img/tech-stack-icons/react.png"
+            alt="made with react"
+          />
+          <img
+            class="portfolio-item__tech-stack--img"
+            src="../../../img/tech-stack-icons/react-hook.png"
+            alt="made with react hooks"
+          />
+          <img
+            class="portfolio-item__tech-stack--img"
+            src="../../../img/tech-stack-icons/js.webp"
+            alt="made with javascript"
+          />
+          <img
+            class="portfolio-item__tech-stack--img"
+            src="../../../img/tech-stack-icons/html.png"
+            alt="made with html"
+          />
+          <img
+            class="portfolio-item__tech-stack--img"
+            src="../../../img/tech-stack-icons/css.png"
+            alt="made with css"
+          />
+          <img
+            class="portfolio-item__tech-stack--img"
+            src="../../../img/tech-stack-icons/sass.png"
+            alt="made with sass"
+          />
+          <img
+            class="portfolio-item__tech-stack--img"
+            src="../../../img/tech-stack-icons/firebase.png"
+            alt="made with firebase"
+          />
+          <img
+            class="portfolio-item__tech-stack--img"
+            src="../../../img/tech-stack-icons/stripe.webp"
+            alt="made with stripe"
+          />
+        </div>
+      </section>
+
+      <section class="portfolio-item__features">
+        <h2 class="portfolio-item__features--title">Features</h2>
+        <ul class="portfolio-item__feature-list">
+          <li class="portfolio-item__feature-list--list-item">
+            Features fully functional database, login & authentication and
+            working cart.
+          </li>
+          <li class="portfolio-item__feature-list--list-item">
+            Working slider, category previews and menus with submenus for each
+            category.
+          </li>
+          <li class="portfolio-item__feature-list--list-item">
+            Fully working cart, viewable from any page-allowing users to add
+            items dynamically and edit quantities etc, on checkout page.
+          </li>
+        </ul>
+      </section>
+
+      <section class="portfolio-item__what-i-learned">
+        <h2 class="portfolio-item__what-i-learned--title">Experience Gained</h2>
+        <ul class="portfolio-item__what-i-learned--list">
+          <li class="portfolio-item__what-i-learned-list--list-item">
+            Became very familiar with React modules, hooks, routes, React DOM
+            re-renders, etc.
+          </li>
+          <li class="portfolio-item__what-i-learned-list--list-item">
+            Learned how to integrate Google Firebase serverless database to
+            store docs, authenticate users, and allow basic CRUD operations.
+          </li>
+          <li class="portfolio-item__what-i-learned-list--list-item">
+            Learned how to build a dynamic, performant e-commerce website from
+            zero.
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            href="https://github.com/davephilpz"
+            class="social-list__link"
+            target="_blank"
+          >
+            <img
+              class="footer__icon"
+              src="../../../img/github-icon.png"
+              alt="Github icon"
+            />
+            <span>Github</span>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/dave-phillips-61730685/"
+            class="social-list__link"
+            target="_blank"
+          >
+            <img
+              class="footer__icon linked in"
+              src="../../../img/linked-in-icon.png"
+              alt="Linked In icon"
+            />
+            <span>Linked In</span>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://development-resources.onrender.com"
+            class="social-list__link"
+            target="_blank"
+          >
+            <img
+              class="footer__icon linked in"
+              src="../../../img/favicon/Recursive Icon.svg"
+              alt="Dev resources link hosted on another website."
+            />
+            <span>Dev Resources</span>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
