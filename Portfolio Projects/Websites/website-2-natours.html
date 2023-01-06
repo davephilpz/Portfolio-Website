@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Dave Phillips portfolio website. This website shows off some of my major projects, achievements and skills."
+    />
+    <title>Dave Phillips - Full Stack Developer</title>
+
+    <!-- // CSS & favicon -->
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="../../img/favicon/Recursive Icon.svg"
+      type="image/x-icon"
+    />
+
+    <!-- Icons -->
+    <script
+      defer
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      defer
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- JS -->
+    <script defer src="../../js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="../../index.html#home">
+          <img
+            src="../../img/favicon/Recursive Icon.svg"
+            alt="recursive web brand logo"
+          />
+        </a>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="../../index.html#home">Home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="../../index.html#services"
+              >My Services</a
+            >
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="../../index.html#about-me">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="../../index.html#my-work">My Work</a>
+          </li>
+          <li class="nav__item btn-header-nav">
+            <a class="nav__link" href="../../index.html#contact-me"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <button class="mobile-navmenu-btn">
+        <ion-icon class="mobile-navmenu-icon" name="menu-outline"></ion-icon>
+        <ion-icon class="mobile-navmenu-icon" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main class="main">
+      <section class="portfolio-item intro">
+        <div class="portfolio-item__flex-container">
+          <picture>
+            <source srcset="../../img/my-work/natours.webp" type="image/webp" />
+            <source srcset="../../img/my-work/natours.jpg" type="image/jpg" />
+            <img
+              class="portfolio-item__img"
+              src="../../img/my-work/natours.webp"
+              alt="website 2 natours site snapshot"
+            />
+          </picture>
+          <div class="portfolio-item__text-container">
+            <h1 class="portfolio-item__title">Website 2</h1>
+            <p class="portfolio-item__subtitle">Natours</p>
+          </div>
+        </div>
+
+        <button class="portfolio-item__btn">
+          <a
+            class="nav__link portfolio-item__link"
+            href="https://silver-tanuki-e2f492.netlify.app"
+            target="_blank"
+            >View Project</a
+          >
+        </button>
+      </section>
+
+      <section class="portfolio-item__tech-stack">
+        <h2 class="portfolio-item__tech-stack--title">Tech Stack</h2>
+        <div class="portfolio-item__tech-stack--images">
+          <picture>
+            <source
+              srcset="../../img/tech-stack-icons/js.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="../../img/tech-stack-icons/js.png"
+              type="image/png"
+            />
+            <img
+              class="portfolio-item__tech-stack--img"
+              src="../../img/tech-stack-icons/js.png"
+              alt="made with javascript"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="../../img/tech-stack-icons/html.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="../../img/tech-stack-icons/html.png"
+              type="image/png"
+            />
+            <img
+              class="portfolio-item__tech-stack--img"
+              src="../../img/tech-stack-icons/html.png"
+              alt="made with html 5"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="../../img/tech-stack-icons/css.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="../../img/tech-stack-icons/css.png"
+              type="image/png"
+            />
+            <img
+              class="portfolio-item__tech-stack--img"
+              src="../../img/tech-stack-icons/css.png"
+              alt="made with css 3"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="../../img/tech-stack-icons/sass.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="../../img/tech-stack-icons/sass.png"
+              type="image/png"
+            />
+            <img
+              class="portfolio-item__tech-stack--img"
+              src="../../img/tech-stack-icons/sass.png"
+              alt="made with sass/scss"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="../../img/tech-stack-icons/node-js.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="../../img/tech-stack-icons/node-js.png"
+              type="image/png"
+            />
+            <img
+              class="portfolio-item__tech-stack--img"
+              src="../../img/tech-stack-icons/node-js.png"
+              alt="made with node js"
+            />
+          </picture>
+        </div>
+      </section>
+
+      <section class="portfolio-item__features">
+        <h2 class="portfolio-item__features--title">Features</h2>
+        <ul class="portfolio-item__feature-list">
+          <li class="portfolio-item__feature-list--list-item">
+            Modern responsive web design.
+          </li>
+          <li class="portfolio-item__feature-list--list-item">
+            Advanced CSS animations and functionality.
+          </li>
+          <li class="portfolio-item__feature-list--list-item">
+            Embedded video and modals using only CSS.
+          </li>
+        </ul>
+      </section>
+
+      <section class="portfolio-item__what-i-learned">
+        <h2 class="portfolio-item__what-i-learned--title">Experience Gained</h2>
+        <ul class="portfolio-item__what-i-learned--list">
+          <li class="portfolio-item__what-i-learned-list--list-item">
+            Became very familiar with advanced CSS features, tricks for better
+            design and optimal performance and cleaner, reusable code.
+          </li>
+          <li class="portfolio-item__what-i-learned-list--list-item">
+            Learned how to make multi-layer cards in CSS.
+          </li>
+          <li class="portfolio-item__what-i-learned-list--list-item">
+            Learned how to make modals and embedded video using CSS.
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            href="https://github.com/davephilpz"
+            class="social-list__link"
+            target="_blank"
+          >
+            <img
+              class="footer__icon"
+              src="../../img/github-icon.png"
+              alt="Github icon"
+            />
+            <span>Github</span>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/dave-phillips-61730685/"
+            class="social-list__link"
+            target="_blank"
+          >
+            <img
+              class="footer__icon linked in"
+              src="../../img/linked-in-icon.png"
+              alt="Linked In icon"
+            />
+            <span>Linked In</span>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://development-resources.onrender.com"
+            class="social-list__link"
+            target="_blank"
+          >
+            <img
+              class="footer__icon linked in"
+              src="../../img/favicon/Recursive Icon.svg"
+              alt="Dev resources link hosted on another website."
+            />
+            <span>Dev Resources</span>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

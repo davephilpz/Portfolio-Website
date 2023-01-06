@@ -12,7 +12,7 @@ const observer = new IntersectionObserver(
       ? document.body.classList.add("sticky")
       : document.body.classList.remove("sticky");
   },
-  { root: null, threshold: 0, rootMargin: "-220px" }
+  { root: null, threshold: 0, rootMargin: "0px" }
 );
 observer.observe(sectionIntro);
 allLinks.forEach((link) => {
