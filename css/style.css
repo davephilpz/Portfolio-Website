@@ -219,6 +219,10 @@ strong {
   font-weight: var(--font-weight-bold);
 }
 
+.btn-dark:hover {
+  color: var(--color-dark) !important;
+}
+
 /********************/
 /* Header */
 /********************/
@@ -257,13 +261,17 @@ strong {
   display: block;
   text-decoration: none;
   font-weight: var(--font-weight-bold);
-  color: inherit;
   font-size: 4rem;
 }
 
 .nav__link:hover,
 .nav__link:active {
   color: var(--color-accent);
+}
+
+.nav__link:hover:last-child,
+.nav__link:active:last-child {
+  color: var(--color-dark);
 }
 
 .btn-header-nav {
@@ -790,6 +798,7 @@ strong {
   border-radius: 1rem;
   z-index: 1;
   border-radius: 0.5rem;
+  transform: translateX(-20%);
 }
 
 .about-me__title {
@@ -869,6 +878,7 @@ strong {
   }
   .about-me__img {
     width: 20rem;
+    transform: translateX(0%);
   }
   .about-me__title {
     font-size: 3rem;
