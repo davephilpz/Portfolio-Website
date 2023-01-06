@@ -241,7 +241,6 @@ strong {
 }
 
 .nav {
-  background-color: var(--color-light);
   color: var(--color-dark);
   transform: translateX(0%);
   transition: transform 250ms cubic-bezier(0.5, 0, 0.5, 1);
@@ -254,11 +253,6 @@ strong {
   gap: 5rem;
 }
 
-@supports (gap: 5rem) {
-  .nav__list {
-    margin: 8rem;
-  }
-}
 .nav__link {
   display: block;
   text-decoration: none;
@@ -366,13 +360,8 @@ strong {
   .nav__list {
     gap: 3rem;
   }
-  @supports (gap: 3rem) {
-    .nav__list {
-      margin: 6rem;
-    }
-  }
   .nav__link {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   .btn-header-nav {
     padding: 0.2rem 1.5rem;
@@ -388,52 +377,32 @@ strong {
   .nav__list {
     gap: 3rem;
   }
-  @supports (gap: 3rem) {
-    .nav__list {
-      margin: 6rem;
-    }
-  }
   .nav__link {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .sticky .nav__list {
     gap: 3rem;
-  }
-  @supports (gap: 3rem) {
-    .sticky .nav__list {
-      margin: 6rem;
-    }
   }
   .sticky .logo img {
     height: 7rem;
     margin-left: 0;
   }
   .sticky .nav__link {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
 }
 @media (max-width: 750px) {
   .nav__list {
-    gap: 2rem;
-  }
-  @supports (gap: 2rem) {
-    .nav__list {
-      margin: 4rem;
-    }
+    gap: 1.3rem;
   }
   .nav__link {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .sticky .nav__list {
     gap: 2rem;
   }
   .sticky .nav__link {
-    font-size: 1.5rem;
-  }
-  @supports (gap: 1.5rem) {
-    .sticky .nav__list {
-      margin: 3rem;
-    }
+    font-size: 1.3rem;
   }
 }
 @media (max-width: 600px) {
@@ -527,7 +496,7 @@ strong {
 
 @supports (gap: 2rem) {
   .intro__text-container {
-    margin: 4rem;
+    margin: 2rem;
   }
 }
 .profile__img {
@@ -592,7 +561,7 @@ strong {
   }
   @supports (gap: 1.5rem) {
     .intro__text-container {
-      margin: 3rem;
+      margin: 1.5rem;
     }
   }
   .profile__img {
@@ -617,7 +586,7 @@ strong {
   }
   @supports (gap: 5rem) {
     .intro__ {
-      margin: 8rem;
+      margin: 5rem;
     }
   }
   .intro__text-container {
@@ -625,7 +594,7 @@ strong {
   }
   @supports (gap: 2.5rem) {
     .intro__text-container {
-      margin: 5rem;
+      margin: 2.5rem;
     }
   }
   .profile__img {
@@ -1357,6 +1326,9 @@ strong {
   }
 }
 @media only screen and (max-width: 600px) {
+  .footer {
+    padding: 0.5rem 0;
+  }
   .social-list {
     font-size: 1.5rem;
   }
@@ -1584,6 +1556,13 @@ strong {
   text-align: left;
 }
 
+@media only screen and (max-width: 800px) {
+  .portfolio-item__feature-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
 @media only screen and (max-width: 600px) {
   .portfolio-item__features {
     width: 85%;
@@ -1624,7 +1603,7 @@ strong {
 
 @media only screen and (max-width: 600px) {
   .portfolio-item__what-i-learned {
-    width: 85%;
+    width: 80%;
   }
 }
 

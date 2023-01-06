@@ -1,3 +1,5 @@
+// TODO fix side page hamburger
+
 /* roboto-100 - latin */
 @font-face {
     font-family: 'Roboto',
@@ -385,7 +387,7 @@ strong {
 }
 
 .nav {
-    background-color: var(--color-light);
+
     color: var(--color-dark);
     transform: translateX(0%);
     transition: transform 250ms cubic-bezier(0.5, 0, 0.5, 1);
@@ -396,12 +398,6 @@ strong {
     display: flex;
     align-items: center;
     gap: 5rem;
-}
-
-@supports (gap:5rem) {
-    .nav__list {
-        margin: 8rem;
-    }
 }
 
 .nav__link {
@@ -519,14 +515,14 @@ strong {
         gap: 3rem;
     }
 
-    @supports (gap:3rem) {
-        .nav__list {
-            margin: 6rem;
-        }
-    }
+    // @supports (gap:3rem) {
+    //     .nav__list {
+    //         margin: 3rem;
+    //     }
+    // }
 
     .nav__link {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     .btn-header-nav {
@@ -546,25 +542,25 @@ strong {
         gap: 3rem;
     }
 
-    @supports (gap:3rem) {
-        .nav__list {
-            margin: 6rem;
-        }
-    }
+    // @supports (gap:3rem) {
+    //     .nav__list {
+    //         margin: 3rem;
+    //     }
+    // }
 
     .nav__link {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     .sticky .nav__list {
         gap: 3rem;
     }
 
-    @supports (gap:3rem) {
-        .sticky .nav__list {
-            margin: 6rem;
-        }
-    }
+    // @supports (gap:3rem) {
+    //     .sticky .nav__list {
+    //         margin: 3rem;
+    //     }
+    // }
 
     .sticky .logo img {
         height: 7rem;
@@ -572,23 +568,23 @@ strong {
     }
 
     .sticky .nav__link {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 }
 
 @media (max-width: 750px) {
     .nav__list {
-        gap: 2rem;
+        gap: 1.3rem;
     }
 
-    @supports (gap:2rem) {
-        .nav__list {
-            margin: 4rem;
-        }
-    }
+    // @supports (gap:1.3rem) {
+    //     .nav__list {
+    //         margin: 1.3rem;
+    //     }
+    // }
 
     .nav__link {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .sticky .nav__list {
@@ -596,14 +592,14 @@ strong {
     }
 
     .sticky .nav__link {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
-    @supports (gap:1.5rem) {
-        .sticky .nav__list {
-            margin: 3rem;
-        }
-    }
+    // @supports (gap:1.5rem) {
+    //     .sticky .nav__list {
+    //         margin: 1.5rem;
+    //     }
+    // }
 }
 
 @media (max-width: 600px) {
@@ -710,7 +706,7 @@ strong {
 
 @supports (gap:2rem) {
     .intro__text-container {
-        margin: 4rem;
+        margin: 2rem;
     }
 }
 
@@ -780,7 +776,7 @@ strong {
 
     @supports (gap:1.5rem) {
         .intro__text-container {
-            margin: 3rem;
+            margin: 1.5rem;
         }
     }
 
@@ -810,7 +806,7 @@ strong {
 
     @supports (gap:5rem) {
         .intro__ {
-            margin: 8rem;
+            margin: 5rem;
         }
     }
 
@@ -820,7 +816,7 @@ strong {
 
     @supports (gap:2.5rem) {
         .intro__text-container {
-            margin: 5rem;
+            margin: 2.5rem;
         }
     }
 
@@ -1642,6 +1638,10 @@ strong {
 }
 
 @media only screen and (max-width: 600px) {
+    .footer {
+        padding: .5rem 0;
+    }
+
     .social-list {
         font-size: 1.5rem;
     }
@@ -1889,6 +1889,14 @@ strong {
     text-align: left;
 }
 
+@media only screen and (max-width: 800px) {
+    .portfolio-item__feature-list {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .portfolio-item__features {
         width: 85%;
@@ -1931,6 +1939,6 @@ strong {
 
 @media only screen and (max-width: 600px) {
     .portfolio-item__what-i-learned {
-        width: 85%;
+        width: 80%;
     }
 }
