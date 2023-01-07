@@ -1444,6 +1444,12 @@ strong {
   font-size: 1.5rem;
 }
 
+.portfolio-item__description {
+  width: 80%;
+  margin: 5rem auto;
+  font-size: 1.8rem;
+}
+
 @media only screen and (max-width: 1000px) {
   .portfolio-item__img {
     width: 18rem;
@@ -1496,7 +1502,8 @@ strong {
   margin: 0 auto;
   margin-bottom: 5rem;
   width: 70%;
-  padding-bottom: 5rem;
+  padding: 5rem 0;
+  border-top: 1px solid var(--color-accent);
   border-bottom: 1px solid var(--color-accent);
 }
 
