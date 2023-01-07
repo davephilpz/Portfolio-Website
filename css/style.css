@@ -1485,10 +1485,14 @@ strong {
   }
   .portfolio-item__btn {
     transform: translateX(0%);
-    margin-bottom: 5rem;
   }
   .portfolio-item__btn:hover {
     transform: translateX(0%);
+  }
+  .portfolio-item__description {
+    width: 70%;
+    margin: 3rem auto;
+    font-size: 1.8rem;
   }
 }
 /********************/
