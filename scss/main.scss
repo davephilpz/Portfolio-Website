@@ -407,6 +407,7 @@ strong {
     text-decoration: none;
     font-weight: var(--font-weight-bold);
     font-size: 4rem;
+    color: var(--color-dark);
 }
 
 .nav__link:hover,
@@ -718,6 +719,7 @@ strong {
 
 .profile__img {
     width: 25rem;
+    aspect-ratio: 1/1;
     box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.3);
     border-radius: 1rem;
     z-index: 1;
@@ -1607,10 +1609,12 @@ strong {
 
 .footer__icon {
     height: 4rem;
+    width: 4rem;
 }
 
 .linked-in {
     height: 4rem;
+    width: 4rem;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -1638,10 +1642,12 @@ strong {
 
     .footer__icon {
         height: 3rem;
+        width: 3rem;
     }
 
     .linked-in {
         height: 3rem;
+        width: 3rem;
     }
 }
 
