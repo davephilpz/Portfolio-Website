@@ -369,6 +369,11 @@ strong {
   .nav__list {
     gap: 3rem;
   }
+  @supports (gap: 3rem) {
+    .nav__list {
+      margin-right: 3rem;
+    }
+  }
   .nav__link {
     font-size: 1.6rem;
   }
@@ -403,6 +408,11 @@ strong {
 @media (max-width: 750px) {
   .nav__list {
     gap: 1.3rem;
+  }
+  @supports (gap: 1.3rem) {
+    .nav__list {
+      margin: 1.3rem;
+    }
   }
   .nav__link {
     font-size: 1.2rem;

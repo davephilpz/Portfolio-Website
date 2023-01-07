@@ -522,11 +522,11 @@ strong {
         gap: 3rem;
     }
 
-    // @supports (gap:3rem) {
-    //     .nav__list {
-    //         margin: 3rem;
-    //     }
-    // }
+    @supports (gap:3rem) {
+        .nav__list {
+            margin-right: 3rem;
+        }
+    }
 
     .nav__link {
         font-size: 1.6rem;
@@ -549,12 +549,6 @@ strong {
         gap: 3rem;
     }
 
-    // @supports (gap:3rem) {
-    //     .nav__list {
-    //         margin: 3rem;
-    //     }
-    // }
-
     .nav__link {
         font-size: 1.4rem;
     }
@@ -562,12 +556,6 @@ strong {
     .sticky .nav__list {
         gap: 3rem;
     }
-
-    // @supports (gap:3rem) {
-    //     .sticky .nav__list {
-    //         margin: 3rem;
-    //     }
-    // }
 
     .sticky .logo img {
         height: 7rem;
@@ -584,11 +572,11 @@ strong {
         gap: 1.3rem;
     }
 
-    // @supports (gap:1.3rem) {
-    //     .nav__list {
-    //         margin: 1.3rem;
-    //     }
-    // }
+    @supports (gap:1.3rem) {
+        .nav__list {
+            margin: 1.3rem;
+        }
+    }
 
     .nav__link {
         font-size: 1.2rem;
@@ -601,12 +589,6 @@ strong {
     .sticky .nav__link {
         font-size: 1.3rem;
     }
-
-    // @supports (gap:1.5rem) {
-    //     .sticky .nav__list {
-    //         margin: 1.5rem;
-    //     }
-    // }
 }
 
 @media (max-width: 600px) {
