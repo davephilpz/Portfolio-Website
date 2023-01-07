@@ -219,6 +219,10 @@ strong {
   font-weight: var(--font-weight-bold);
 }
 
+.btn-dark:hover {
+  color: var(--color-dark) !important;
+}
+
 /********************/
 /* Header */
 /********************/
@@ -257,13 +261,18 @@ strong {
   display: block;
   text-decoration: none;
   font-weight: var(--font-weight-bold);
-  color: inherit;
   font-size: 4rem;
+  color: var(--color-dark);
 }
 
 .nav__link:hover,
 .nav__link:active {
   color: var(--color-accent);
+}
+
+.nav__link:hover:last-child,
+.nav__link:active:last-child {
+  color: var(--color-dark);
 }
 
 .btn-header-nav {
@@ -360,6 +369,11 @@ strong {
   .nav__list {
     gap: 3rem;
   }
+  @supports (gap: 3rem) {
+    .nav__list {
+      margin-right: 3rem;
+    }
+  }
   .nav__link {
     font-size: 1.6rem;
   }
@@ -394,6 +408,11 @@ strong {
 @media (max-width: 750px) {
   .nav__list {
     gap: 1.3rem;
+  }
+  @supports (gap: 1.3rem) {
+    .nav__list {
+      margin: 1.3rem;
+    }
   }
   .nav__link {
     font-size: 1.2rem;
@@ -501,6 +520,7 @@ strong {
 }
 .profile__img {
   width: 25rem;
+  aspect-ratio: 1/1;
   box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.3);
   border-radius: 1rem;
   z-index: 1;
@@ -790,6 +810,7 @@ strong {
   border-radius: 1rem;
   z-index: 1;
   border-radius: 0.5rem;
+  transform: translateX(-20%);
 }
 
 .about-me__title {
@@ -869,6 +890,7 @@ strong {
   }
   .about-me__img {
     width: 20rem;
+    transform: translateX(0%);
   }
   .about-me__title {
     font-size: 3rem;
@@ -1293,10 +1315,12 @@ strong {
 }
 .footer__icon {
   height: 4rem;
+  width: 4rem;
 }
 
 .linked-in {
   height: 4rem;
+  width: 4rem;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -1320,9 +1344,11 @@ strong {
   }
   .footer__icon {
     height: 3rem;
+    width: 3rem;
   }
   .linked-in {
     height: 3rem;
+    width: 3rem;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -1428,6 +1454,12 @@ strong {
   font-size: 1.5rem;
 }
 
+.portfolio-item__description {
+  width: 70%;
+  margin: 5rem auto;
+  font-size: 1.8rem;
+}
+
 @media only screen and (max-width: 1000px) {
   .portfolio-item__img {
     width: 18rem;
@@ -1463,10 +1495,14 @@ strong {
   }
   .portfolio-item__btn {
     transform: translateX(0%);
-    margin-bottom: 5rem;
   }
   .portfolio-item__btn:hover {
     transform: translateX(0%);
+  }
+  .portfolio-item__description {
+    width: 70%;
+    margin: 3rem auto;
+    font-size: 1.8rem;
   }
 }
 /********************/
@@ -1480,7 +1516,8 @@ strong {
   margin: 0 auto;
   margin-bottom: 5rem;
   width: 70%;
-  padding-bottom: 5rem;
+  padding: 5rem 0;
+  border-top: 1px solid var(--color-accent);
   border-bottom: 1px solid var(--color-accent);
 }
 
@@ -1529,7 +1566,7 @@ strong {
   gap: 1rem;
   margin: 0 auto;
   margin-bottom: 5rem;
-  width: 70%;
+  width: 80%;
   padding-bottom: 5rem;
   border-bottom: 1px solid var(--color-accent);
 }
@@ -1540,8 +1577,8 @@ strong {
 
 .portfolio-item__feature-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 4rem;
 }
 
 @supports (gap: 2rem) {
