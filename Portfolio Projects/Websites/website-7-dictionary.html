@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Dave Phillips portfolio website. This website shows off some of my major projects, achievements and skills."
+    />
+    <title>Dave Phillips - Full Stack Developer</title>
+
+    <!-- // CSS & favicon -->
+    <link rel="stylesheet" href="../../css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="../../img/favicon/Recursive Icon.svg"
+      type="image/x-icon"
+    />
+
+    <!-- Icons -->
+    <script
+      defer
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      defer
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- JS -->
+    <script defer src="../../js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="../../index.html#home">
+          <img
+            src="../../img/favicon/Recursive Icon.svg"
+            alt="recursive web brand logo"
+          />
+        </a>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="../../index.html#home">Home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="../../index.html#services"
+              >My Services</a
+            >
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="../../index.html#about-me">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="../../index.html#my-work">My Work</a>
+          </li>
+          <li class="nav__item btn-header-nav">
+            <a class="nav__link" href="../../index.html#contact-me"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <button class="mobile-navmenu-btn">
+        <ion-icon class="mobile-navmenu-icon" name="menu-outline"></ion-icon>
+        <ion-icon class="mobile-navmenu-icon" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main class="main">
+      <section class="portfolio-item intro">
+        <div class="portfolio-item__flex-container">
+          <picture>
+            <source
+              srcset="../../img/my-work/dictionary.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="../../img/my-work/dictionary.jpg"
+              type="image/jpg"
+            />
+            <img
+              class="portfolio-item__img"
+              src="../../img/my-work/dictionary.webp"
+              alt="website 7 dictionary site snapshot"
+            />
+          </picture>
+          <div class="portfolio-item__text-container">
+            <h1 class="portfolio-item__title">Website 7</h1>
+            <p class="portfolio-item__subtitle">Japanese English Dictionary</p>
+          </div>
+        </div>
+
+        <button class="portfolio-item__btn">
+          <a
+            class="nav__link portfolio-item__link"
+            href="https://dictionary-yxkw.onrender.com/"
+            target="_blank"
+            >View Project</a
+          >
+        </button>
+        <p class="portfolio-item__description">
+          Fully functional dictionary app with complex regex search for Japanese
+          and English, double wildcard, and live search results. Also has a
+          flash card system to randomly pull from dictionary or a user chosen
+          system for their own word collection. Features all latest security
+          practices and MVC controller model.
+        </p>
+      </section>
+
+      <section class="portfolio-item__tech-stack">
+        <h2 class="portfolio-item__tech-stack--title">Tech Stack</h2>
+        <div class="portfolio-item__tech-stack--images">
+          <picture>
+            <source
+              srcset="../../img/tech-stack-icons/node-js.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="../../img/tech-stack-icons/node-js.png"
+              type="image/png"
+            />
+            <img
+              class="portfolio-item__tech-stack--img"
+              src="../../img/tech-stack-icons/node-js.png"
+              alt="made with node js"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="../../img/tech-stack-icons/express.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="../../img/tech-stack-icons/express.png"
+              type="image/png"
+            />
+            <img
+              class="portfolio-item__tech-stack--img"
+              src="../../img/tech-stack-icons/express.png"
+              alt="made with node express"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="../../img/tech-stack-icons/mongodb.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="../../img/tech-stack-icons/mongodb.png"
+              type="image/png"
+            />
+            <img
+              class="portfolio-item__tech-stack--img"
+              src="../../img/tech-stack-icons/mongodb.png"
+              alt="made with mongo database"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="../../img/tech-stack-icons/mongoose.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="../../img/tech-stack-icons/mongoose.png"
+              type="image/png"
+            />
+            <img
+              class="portfolio-item__tech-stack--img"
+              src="../../img/tech-stack-icons/mongoose.png"
+              alt="made with mongoose"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="../../img/tech-stack-icons/server.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="../../img/tech-stack-icons/server.png"
+              type="image/png"
+            />
+            <img
+              class="portfolio-item__tech-stack--img"
+              src="../../img/tech-stack-icons/server.png"
+              alt="made with web server"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="../../img/tech-stack-icons/api.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="../../img/tech-stack-icons/api.png"
+              type="image/png"
+            />
+            <img
+              class="portfolio-item__tech-stack--img"
+              src="../../img/tech-stack-icons/api.png"
+              alt="made with restful api"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="../../img/tech-stack-icons/parcel.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="../../img/tech-stack-icons/parcel.png"
+              type="image/png"
+            />
+            <img
+              class="portfolio-item__tech-stack--img"
+              src="../../img/tech-stack-icons/parcel.png"
+              alt="made with parcel"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="../../img/tech-stack-icons/ejs.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="../../img/tech-stack-icons/ejs.png"
+              type="image/png"
+            />
+            <img
+              class="portfolio-item__tech-stack--img"
+              src="../../img/tech-stack-icons/ejs.png"
+              alt="made with ejs"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="../../img/tech-stack-icons/postman.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="../../img/tech-stack-icons/postman.png"
+              type="image/png"
+            />
+            <img
+              class="portfolio-item__tech-stack--img"
+              src="../../img/tech-stack-icons/postman.png"
+              alt="made with postman"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="../../img/tech-stack-icons/js.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="../../img/tech-stack-icons/js.png"
+              type="image/png"
+            />
+            <img
+              class="portfolio-item__tech-stack--img"
+              src="../../img/tech-stack-icons/js.png"
+              alt="made with javascript"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="../../img/tech-stack-icons/html.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="../../img/tech-stack-icons/html.png"
+              type="image/png"
+            />
+            <img
+              class="portfolio-item__tech-stack--img"
+              src="../../img/tech-stack-icons/html.png"
+              alt="made with html 5"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="../../img/tech-stack-icons/css.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="../../img/tech-stack-icons/css.png"
+              type="image/png"
+            />
+            <img
+              class="portfolio-item__tech-stack--img"
+              src="../../img/tech-stack-icons/css.png"
+              alt="made with css 3"
+            />
+          </picture>
+          <picture>
+            <source
+              srcset="../../img/tech-stack-icons/sass.webp"
+              type="image/webp"
+            />
+            <source
+              srcset="../../img/tech-stack-icons/sass.png"
+              type="image/png"
+            />
+            <img
+              class="portfolio-item__tech-stack--img"
+              src="../../img/tech-stack-icons/sass.png"
+              alt="made with sass/scss"
+            />
+          </picture>
+        </div>
+      </section>
+
+      <section class="portfolio-item__features">
+        <h2 class="portfolio-item__features--title">Features</h2>
+        <ul class="portfolio-item__feature-list">
+          <li class="portfolio-item__feature-list--list-item">
+            Live form validation with color and text indicators.
+          </li>
+          <li class="portfolio-item__feature-list--list-item">
+            Live search that works with arrow key and enter.
+          </li>
+          <li class="portfolio-item__feature-list--list-item">
+            Complex regex search in Japanese and English plus allowing for
+            double wildcard queries.
+          </li>
+          <li class="portfolio-item__feature-list--list-item">
+            5 layer user form validation.
+          </li>
+          <li class="portfolio-item__feature-list--list-item">
+            All latest security measures and anti-hacking features implemented.
+          </li>
+          <li class="portfolio-item__feature-list--list-item">
+            Random word flashcards from dictionary and custom user flashcard
+            system to save words in 4 categories in personal collection based on
+            mastery level. Each level has a different random chance of being
+            drawn. More functionality to come.
+          </li>
+          <li class="portfolio-item__feature-list--list-item">
+            Full live admin CRUD with self-populating forms and beautiful user
+            interface.
+          </li>
+          <li class="portfolio-item__feature-list--list-item">
+            Use of latest CSS and HTML tricks to reduce complex javascript, CDNs
+            and other dependencies.
+          </li>
+          <li class="portfolio-item__feature-list--list-item">
+            Complex usage cases of EJS templates to dynamically update user
+            interface based on user selection. Also has look and feel of a SPA
+            even thought it does not boast full DOM control like REACT.
+          </li>
+        </ul>
+      </section>
+
+      <section class="portfolio-item__what-i-learned">
+        <h2 class="portfolio-item__what-i-learned--title">Experience Gained</h2>
+        <ul class="portfolio-item__what-i-learned--list">
+          <li class="portfolio-item__what-i-learned-list--list-item">
+            Learned through much pain the many ways to connect the front and
+            back end through params, AJAX calls, Axios, queries, and of course
+            req.body.
+          </li>
+          <li class="portfolio-item__what-i-learned-list--list-item">
+            Learned EJS very well with very complex templates.
+          </li>
+          <li class="portfolio-item__what-i-learned-list--list-item">
+            Learned how to code with both English and Japanese using Wanakana
+            library and other tools to give expected functionality. Backend
+            schema all in Japanese.
+          </li>
+          <li class="portfolio-item__what-i-learned-list--list-item">
+            Learned in and out how to make an MVC controller with best practices
+            for optimal performance, DRYness, scalability and of course ease of
+            understanding and updates for programmers. Well documented and
+            read-it-and-understand-it variables.
+          </li>
+          <li class="portfolio-item__what-i-learned-list--list-item">
+            Learned how to implement all of the latest security techniques.
+            Still plan to add further authentication with email registration,
+            two-factor authentication based on IP and Google Catcha for an
+            anti-bot countermeasure.
+          </li>
+          <li class="portfolio-item__what-i-learned-list--list-item">
+            Learned how to make complex conditionals and regex to validate and
+            perform database queries.
+          </li>
+          <li class="portfolio-item__what-i-learned-list--list-item">
+            Learned the groundwork for creating very complex
+            e-commerce/graph-like schemas even though I currently only link
+            words to a user collection.
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            href="https://github.com/davephilpz"
+            class="social-list__link"
+            target="_blank"
+          >
+            <img
+              class="footer__icon"
+              src="../../img/github-icon.png"
+              alt="Github icon"
+            />
+            <span>Github</span>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://www.linkedin.com/in/dave-phillips-61730685/"
+            class="social-list__link"
+            target="_blank"
+          >
+            <img
+              class="footer__icon linked in"
+              src="../../img/linked-in-icon.png"
+              alt="Linked In icon"
+            />
+            <span>Linked In</span>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            href="https://development-resources.onrender.com"
+            class="social-list__link"
+            target="_blank"
+          >
+            <img
+              class="footer__icon linked in"
+              src="../../img/favicon/Recursive Icon.svg"
+              alt="Dev resources link hosted on another website."
+            />
+            <span>Dev Resources</span>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
